@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.seccion {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagen-centro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 20%;
+  max-height: 20vh;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.seccion-superior {
+  background-color: rgb(245, 136, 19);
+  color: #040404;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 20px;
+}
+
+.seccion-inferior {
+  background-color: rgb(27, 26, 25);
+  color: rgb(230, 222, 222);
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.seccion-inferior h4 {
+  margin: 10px 0;
+}
